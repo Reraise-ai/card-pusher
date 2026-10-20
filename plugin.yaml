@@ -1,0 +1,5 @@
+name: card-pusher
+version: 1.1.1
+description: "Pushes matching QMD cards into the prompt before every model call (pre_llm_call hook, fail-silent, no service)."
+hooks:
+  - pre_llm_call
